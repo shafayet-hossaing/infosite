@@ -1,0 +1,123 @@
+/* >>>>>>>>>>>>section-1<<<<<<<<<<<<<< */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 55px;
+  margin-top: -10px;
+}
+p {
+  font-size: 20px;
+}
+.span-color {
+  color: #ff1100;
+}
+.flexible-box-container {
+  display: flex;
+  margin-bottom: 100px;
+  margin-left: 3%;
+}
+.half-width {
+  width: 40%;
+  padding: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+.first-section-border {
+  border-image: linear-gradient(rgb(216, 95, 14), rgb(247, 162, 66));
+  border-left: 5px solid;
+  border-image-slice: 1;
+}
+.link-1 {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  border-radius: 7px;
+  padding: 10px 40px;
+  color: white;
+  font-weight: 600;
+}
+
+/* >>>>>>>>>>>>section-2<<<<<<<<<<<<<< */
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+}
+
+.all-pic {
+  height: 100px;
+  width: 100px;
+}
+.mini-container-1 {
+  background-color: rgb(252, 247, 222);
+  box-shadow: 10px 10px 30px rgb(119, 110, 110);
+  width: 40%;
+  padding: 0px 20px;
+  border-radius: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.mini-container-2 {
+  background-color: rgb(242, 244, 250);
+  box-shadow: 10px 10px 30px rgb(119, 110, 110);
+  width: 40%;
+  padding: 0px 20px;
+  border-radius: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.mini-container-3 {
+  background-color: rgb(231, 248, 246);
+  box-shadow: 10px 10px 30px rgb(129, 122, 122);
+  width: 40%;
+  padding: 0px 20px;
+  border-radius: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.container-h2 {
+  font-size: 30px;
+  margin-top: 4px;
+}
+
+/* >>>>>>>>>>>>section-3<<<<<<<<<<<<<< */
+.section3-side-img {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 45px;
+}
+/* >>>>>>>>>>>>>section-4<<<<<<<<<<<<< */
+/*some css copied from sec-1,2 */
+.sec4-side-img {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 150px;
+}
+
+/* section-5 */
+
+.header {
+  font-size: 50px;
+}
+
+/* footer-start */
+
+footer {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Moon Dance", cursive;
+}
+.footer-p {
+  color: rgb(207, 205, 205);
+}
